@@ -18,6 +18,8 @@ features = ["gpu"]
 
 [dependency-groups]
 dev = [
+    "basedpyright>=1.40.2",
     "maturin>=1.16.0",
     "pytest>=9.2.0",
+    "ruff>=0.17.6",
 ]
