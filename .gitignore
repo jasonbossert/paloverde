@@ -8,6 +8,9 @@ wheels/
 
 # Rust generated files
 target/
+*.so
+*.pyd
+*.dll
 
 # Virtual environments
 .venv
