@@ -1,0 +1,13 @@
+[package]
+name = "paloverde-core"
+description = "Principle data structures and orchestration for paloverde"
+readme = "../../README.md"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+keywords.workspace = true
+categories.workspace = true
+
+[dependencies]

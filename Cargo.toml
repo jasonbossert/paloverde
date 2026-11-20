@@ -1,0 +1,24 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/paloverde",
+    "crates/paloverde-python",
+    "crates/paloverde-core",
+    "crates/paloverde-gpu"
+]
+
+[workspace.package]
+description = "A JIT-compiling geospatial processing engine."
+version = "0.0.1"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/jasonbossert/paloverde"
+homepage = "https://github.com/jasonbossert/paloverde"
+keywords = ["paloverde"]
+categories = ["science::geo"]
+
+[workspace.dependencies]
+# Internal workspace crates
+paloverde-core = { path = "crates/paloverde-core", version = "0.0.1" }
+paloverde-gpu = { path = "crates/paloverde-gpu", version = "0.0.1" }
+paloverde = { path = "crates/paloverde", version = "0.0.1" }
