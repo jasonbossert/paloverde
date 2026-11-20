@@ -371,7 +371,7 @@ dependencies = [
 
 [[package]]
 name = "paloverde"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "paloverde-core",
  "paloverde-gpu",
@@ -379,18 +379,18 @@ dependencies = [
 
 [[package]]
 name = "paloverde-core"
-version = "0.0.1"
+version = "0.0.2"
 
 [[package]]
 name = "paloverde-gpu"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "paloverde-core",
 ]
 
 [[package]]
 name = "paloverde-python"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "paloverde",
  "pyo3",

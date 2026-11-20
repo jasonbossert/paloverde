@@ -44,7 +44,7 @@ jobs:
       - name: Publish workspace crates
         env:
           CARGO_REGISTRY_TOKEN: ${{ steps.auth.outputs.token }}
-        run: cargo publish --workspace --locked
+        run: cargo publish --workspace
 
   # 2. Build cross-platform Python wheels via maturin
   build-wheels:
